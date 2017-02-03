@@ -3729,3 +3729,20 @@ Started GET "/" for ::1 at 2017-01-31 20:55:06 +0100
 Processing by PageController#home as HTML
   Rendered page/home.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 60ms (Views: 62.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2017-02-02 12:49:02 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.0ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PageController#home as HTML
+  Rendered page/home.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 290ms (Views: 279.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/hoagie.jpg" for ::1 at 2017-02-02 12:49:13 +0100
+
+
+Started GET "/ingredients" for ::1 at 2017-02-02 12:49:21 +0100
+Processing by IngredientsController#index as HTML
+  [1m[35mIngredient Load (0.0ms)[0m  SELECT "ingredients".* FROM "ingredients"
+  Rendered ingredients/index.html.erb within layouts/application (23.0ms)
+Completed 200 OK in 87ms (Views: 83.3ms | ActiveRecord: 1.0ms)
