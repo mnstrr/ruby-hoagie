@@ -48,16 +48,7 @@ build-iPhoneSimulator/
 
 # unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
 .rvmrc
-<<<<<<< HEAD
-log/development.log
-*.log
-=======
 
-Gemfile.lock
-<<<<<<< HEAD
 log/development.log
 *.log
-*.log
-=======
->>>>>>> refs/remotes/mnstrr/master
->>>>>>> refs/remotes/origin/master
+Gemfile.lock
